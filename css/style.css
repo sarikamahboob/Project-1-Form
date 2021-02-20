@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.login-box{
+    width: 600px;
+    height: 100vh;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-image: url(../image/mm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color:rgb(38, 233, 233);
+}
+
+.login-inner{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+.login-inner img{
+    width: 200px;
+    height: 100px;
+}
+
+.login-inner h1{
+    font-size: 40px;
+}
+
+.login-form{
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.form-control{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-control label{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form-control .input{
+    width: 97%;
+    padding: 5px;
+    border: 3px solid rgb(38, 233, 233);
+}
+
+.login-form .btn-login{
+    padding: 5px;
+    margin-top: 10px;
+    color: rgb(12, 90, 82);
+    font-weight: 900;
+    border: 3px solid rgb(12, 90, 82);
+    background-color: turquoise;
+}
+
+.login-form .btn-login:hover{
+    background-color: transparent;
+    border-color: turquoise;
+    transition: 2s;
+    color: white;
+}
+
+.login-form select{
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+    border-color: turquoise;
+    color: rgb(12, 90, 82);
+    font-weight: 900;
+}
+
+.fb{
+    position: relative;
+}
+
+.fb img{
+    position: fixed;
+    top: 20%;
+    right: 0px;
+    width: 200px;
+    right:  -130px;
+}
+
+.fb img:hover{
+    right:  0px;
+    transition: 1s;
+}
+
+.insta img{
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    width: 200px;
+    right:  -130px;
+}
+
+.insta img:hover{
+    right:  0px;
+    transition: 1s;
+}
+
+.twitter img{
+    position: fixed;
+    top: 60%;
+    right: 0px;
+    width: 200px;
+    right:  -130px;
+}
+
+.twitter img:hover{
+    right:  0px;
+    transition: 1s;
+}
+
+.linkedin img{
+    position: fixed;
+    top: 80%;
+    right: 0px;
+    width: 200px;
+    right:  -130px;
+}
+
+.linkedin img:hover{
+    right:  0px;
+    transition: 1s;
+}
+
+.social-icons{
+    width: 100%;
+    text-align: center;
+}
+
+.social-inner{
+
+}
+
+.social-inner ul{
+
+}
+
+.social-inner ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+
+.social-inner ul li a{
+
+}
+
+.social-inner ul li a:hover{
+
+}
+
+.social-inner ul li a i{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: rgb(34, 236, 243);
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.social-inner ul li a .fa-facebook:hover{
+    background: transparent;
+    background-color: #5D74B7;;
+    color: white;
+}
+
+.social-inner ul li a .fa-instagram:hover{
+    background: transparent;
+    background-color: #B45396;
+    color: white;
+}
+
+.social-inner ul li a .fa-twitter:hover{
+    background: transparent;
+    background-color: #5BB8E4;
+    color: white;
+}
+
+.social-inner ul li a .fa-linkedin:hover{
+    background: transparent;
+    background-color: #1177B5;
+    color: white;
+}
